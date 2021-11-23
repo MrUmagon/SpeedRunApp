@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_background"
+    tools:context=".ayuda_activity">
+
+    <TextView
+        android:id="@+id/txtCreadosPorMi"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/fondo_b"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="Ayuda"
+        android:textAlignment="center"
+        android:textColor="#FFF3F3"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="En esta sección te explicare un poco más acerca del panel de edición"
+        android:textAlignment="center"
+        android:textColor="#29B6F6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCreadosPorMi"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <TextView
+        android:id="@+id/txtPlantillas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="Agregar nuevas tareas"
+        android:textAlignment="textStart"
+        android:textColor="#EC407A"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCreadosPorMi"
+        app:layout_constraintVertical_bias="0.374" />
+
+    <ImageView
+        android:id="@+id/lineaDivisoraA"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPlantillas"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/linea_divisora" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077"
+        app:srcCompat="@drawable/speed_run_app_logo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="16dp"
+        android:text="Para crear una nueva tarea deberás ir al menú de SpeedRun, dentro de este deberás dar “click” en el botón azul con un símbolo de “+”.
+Una vez hecho lo anterior se abrirá una ventana nueva donde deberás añadir lo siguiente:
+Url de una imagen en la Web (si no la agregas se añadirá una imagen por defecto)
+La tarea que deseas agregar
+El tiempo esperado (debes de escribirlo en segundos)"
+        android:textAlignment="center"
+        android:textColor="#29B6F6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lineaDivisoraA"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="16dp"
+        android:text="Dentro del modo de edición puedes modificar los valores de las tareas al deslizar hacia la izquierda sobre la tarea que deseas modificar.
+Para eliminarlas puedes deslizar la tarea hacia la derecha.
+Para mover el lugar de la tarea mantén presionada la tarea que desees y arrastrala hasta la posición deseada."
+        android:textAlignment="center"
+        android:textColor="#7129F6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

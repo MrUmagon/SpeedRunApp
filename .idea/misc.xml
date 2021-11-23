@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/equipo/Desktop/SpeedRunApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
+        <entry key="..\:/Users/equipo/Desktop/SpeedRunApp/app/src/main/res/drawable/btn_add.xml" value="0.2703125" />
+        <entry key="..\:/Users/equipo/Desktop/SpeedRunApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/equipo/Desktop/SpeedRunApp/app/src/main/res/drawable/shape_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/equipo/Desktop/SpeedRunApp/app/src/main/res/layout/activity_ayuda.xml" value="0.264" />
+        <entry key="..\:/Users/equipo/Desktop/SpeedRunApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/equipo/Desktop/SpeedRunApp/app/src/main/res/layout/activity_menu_speedrun.xml" value="0.264" />
+        <entry key="..\:/Users/equipo/Desktop/SpeedRunApp/app/src/main/res/layout/activity_speed_run_timer.xml" value="0.4" />
+        <entry key="..\:/Users/equipo/Desktop/SpeedRunApp/app/src/main/res/layout/activity_tutoriales.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/equipo/Desktop/SpeedRunApp/app/src/main/res/layout/add_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/equipo/Desktop/SpeedRunApp/app/src/main/res/layout/edit_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/equipo/Desktop/SpeedRunApp/app/src/main/res/layout/item_speedrunlist.xml" value="0.4" />
+        <entry key="..\:/Users/equipo/Desktop/SpeedRunApp/app/src/main/res/mipmap-anydpi-v26/ic_agregar_speedrun.xml" value="0.2703125" />
+        <entry key="..\:/Users/equipo/Desktop/SpeedRunApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2703125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

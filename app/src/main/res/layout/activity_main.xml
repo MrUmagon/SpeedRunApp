@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logo_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/speed_run_app_logo" />
+
+        <ImageView
+            android:id="@+id/linea_image"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:srcCompat="@drawable/linea_divisora" />
+
+        <Button
+            android:id="@+id/button_speedrun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:insetLeft="24dp"
+            android:insetTop="24dp"
+            android:insetRight="24dp"
+            android:insetBottom="24dp"
+            android:padding="16dp"
+            android:text="SpeedRun"
+            android:textAllCaps="true"
+            android:textColor="#26C6DA"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:cornerRadius="12dp"
+            app:strokeColor="#29B6F6"
+            app:strokeWidth="2dp" />
+
+        <Button
+            android:id="@+id/button_tutoriales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:insetLeft="24dp"
+            android:insetTop="24dp"
+            android:insetRight="24dp"
+            android:insetBottom="24dp"
+            android:padding="16dp"
+            android:text="Tutoriales"
+            android:textAllCaps="true"
+            android:textColor="#26C6DA"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:cornerRadius="12dp"
+            app:strokeColor="#29B6F6"
+            app:strokeWidth="2dp" />
+
+        <Button
+            android:id="@+id/button_historial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:insetLeft="24dp"
+            android:insetTop="24dp"
+            android:insetRight="24dp"
+            android:insetBottom="24dp"
+            android:padding="16dp"
+            android:text="historial"
+            android:textAllCaps="true"
+            android:textColor="#26C6DA"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:cornerRadius="12dp"
+            app:strokeColor="#29B6F6"
+            app:strokeWidth="2dp" />
+
+        <Button
+            android:id="@+id/button_ayuda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:insetLeft="24dp"
+            android:insetTop="24dp"
+            android:insetRight="24dp"
+            android:insetBottom="24dp"
+            android:padding="16dp"
+            android:text="Ayuda"
+            android:textAllCaps="true"
+            android:textColor="#26C6DA"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:cornerRadius="12dp"
+            app:strokeColor="#29B6F6"
+            app:strokeWidth="2dp" />
+
+        <ImageView
+            android:id="@+id/linea_image2"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:srcCompat="@drawable/linea_divisora" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
